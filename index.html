@@ -12,7 +12,7 @@
         <h1> Trilicia Gomes</h1>
         <nav><!---Seção de navegação do site-->
             <ul>
-                <li><a href="#sobre">Testando</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contatos">Contatos</a></li>
 
@@ -49,11 +49,88 @@
         </article>
 
     </section>
+
+    <section id="habilidades">
+        <h2>Habilidades e tecnologias</h2>
+
+        <table><h3>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Excel</th>
+                    <th>Avançado</th>
+                    <th>Análise temporal, cálculo de variação percentual, modelagem de dados (importar Power Query)</th>
+                </tr>
+                <tr>
+                    <th>Power BI</th>
+                    <th>Intermediário</th>
+                    <th>Relatórios interativos conectando diferentes fontes de dados, Power Query, medidas em DAX (faturamento, ticket médio e crescimento mensal) </th>
+                </tr>
+                <tr>
+                    <th>Pyton</th>
+                    <th>Iniciante</th>
+                    <th>Criar script para coletar, limpar e analisar dados através de bibliotecas (Pandas e Matplotlib)</th>
+                </tr>
+                <tr>
+                    <th>JavaScript</th>
+                    <th>Iniciante</th>
+                    <th>Criar script que consome uma API pública, organiza os dados em arrays e exibir os resultados em tabelas HTML</th>
+                </tr>
+                <tr>
+                    <th>HTML</th>
+                    <th>Iniciante</th>
+                    <th>Capaz de construir estruturas de páginas web semânticas e responsivas</th>
+                </tr>
+                <tr>
+                    <th>CSS</th>
+                    <th>Iniciante</th>
+                    <th>Criar arquivos para estilizar tabelas de dados melhorando a vizualizaçaõ de informações em uma página HTML  </th>
+                </tr>
+
+            </tbody>
+
+
+            </h3>
+        </table>
+
+
+    </section>
     <footer>
         <p>Direitos reservados a Trilicia Gomes</p>
         <section id="contatos">
-            <h2>Contatos</h2>
+            <h2>Contato</h2>
             <p>Tem um projeto em mente, entre em contato</p>
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="email">E-mail: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone" required><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="" id="">
+                    <option value="oportunidade">Oportunidade</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select><br>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea><br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscrição">Deseja receber minha newsletter? Fique por dentro. </label>
+                <br>
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
             <address>
                 E-mail: <a href="triliciamgomes@gmail.com">triliciamgomes@gmail.com</a> <br>
                 Telefone: <a href="tel+5548996158485">48 996158485</a> <br>
