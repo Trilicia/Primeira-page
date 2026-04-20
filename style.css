@@ -1,16 +1,15 @@
-body{
-
-.left 
-  flex: 1;
-  background-color: black;
-
-
-.right 
-  flex: 1;
-  background-color: #f5e6e8;
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to left, rgb(78, 61, 43) 10%, rgb(246, 247, 195) 50%);
 }
-
 img {
   width: 300px;
-  height: 400px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+html {
+  scroll-behavior: smooth;
 }
