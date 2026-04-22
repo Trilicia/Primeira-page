@@ -30,6 +30,7 @@ body {
 
 .navbar a {
   text-decoration: none;
+  text-align: center;
   color: white;
   transition: 0.3s;
   padding: 10px;
