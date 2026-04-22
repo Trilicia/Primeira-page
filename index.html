@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,69 @@
 </head>
 
 <body>
-    
-    <header>
-        <h1> Trilicia Gomes</h1>
-        <h3> Data-driven by nature</h3>
-        <nav><!---Seção de navegação do site-->
-            <ul>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-                <li><a href="https://www.linkedin.com/in/trilicia-gomes-8606451a7/" target="_blank">Linkedin</a></li>
+
+    <nav class="navbar"><!---Seção de navegação do site-->
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+            <li><a href="https://www.linkedin.com/in/trilicia-gomes-8606451a7/" target="_blank">Linkedin</a></li>
 
 
-            </ul>
-        </nav>
+        </ul>
+    </nav>
+    <header class="hero">
+
+        <div class="hero-left">
+            <h1> Trilicia Gomes</h1>
+            <h2> Data Analyst</h2>
+            <p> Data-driven by nature</p>
+
+            <div class="buttons">
+                <a href="#projetos"><button>Ver Projetos</button></a>
+                <a href="#contato"><button class="outline">Contato</button></a>
+            </div>
+        </div>
+        <div class="" hero-right>
+            <section id="sobre">
+                <h2> Sobre mim</h2>
+                <img src="C:\Users\trili\OneDrive\Documentos\GitHub\Primeira-page\IMG_6372 (1).jpg"
+                    alt="Imagem de foto de perfil" title="Imagem de Perfil">
+        </div>
     </header>
-    <section id="sobre">
-        <h2> Sobre mim</h2>
-        <img src="C:\Users\trili\OneDrive\Documentos\GitHub\Primeira-page\IMG_6372 (1).jpg"
-            alt="Imagem de foto de perfil" title="Imagem de Perfil">
-        <article>
+    <article>
+        <section id="sobre" class="sobre">
+            <h2>Sobre mim</h2>
             <p>
-                Olá! Eu sou Trilicia Gomes, farmacêutica bioquímica, com doutorado em Ciências dos Alimentos pela UFSC, e atualmente em transição para a área de Dados.
+                Olá! Sou Trilicia Gomes, farmacêutica bioquímica, com doutorado em Ciências dos Alimentos pela UFSC,
+                e atualmente em transição para a área de Dados.
             </p>
             <p>
-                Minha trajetória sempre foi guiada por dados — desde a pesquisa científica, explorando hipóteses e analisando resultados experimentais, até a indústria, onde atuei com gestão de processos, indicadores de desempenho (KPIs) e tomada de decisão orientada por dados.
+                Minha trajetória sempre foi guiada por dados. Desde a pesquisa científica, explorando hipóteses e
+                analisando resultados experimentais, até a indústria, onde atuei com gestão de processos, indicadores de
+                desempenho (KPIs) e tomada de decisão orientada por dados.
             </p>
-            <p>Ao longo de mais de 10 anos, desenvolvi uma base sólida em análise, interpretação e comunicação de dados, sempre conectando resultados técnicos com impacto no negócio.
+            <p>Ao longo de mais de 10 anos, desenvolvi uma base sólida em análise, interpretação e comunicação de dados,
+                sempre conectando resultados técnicos com impacto no negócio.
 
             </p>
-            <p>Hoje, estou direcionando essa experiência para o ecossistema de dados, aprofundando minhas habilidades em Excel, Power BI e SQL, com foco em análise exploratória, visualização e geração de insights acionáveis.
-                
+            <p>Hoje, estou direcionando essa experiência para o ecossistema de dados, aprofundando minhas habilidades em
+                Excel, Power BI e SQL, com foco em análise exploratória, visualização e geração de insights acionáveis.
+
             </p>
             <p>
                 Neste portfólio, você encontrará projetos que refletem minha evolução na área, passando por:
             </p>
+
             <ul>
                 <li>Análise e tratamento de dados</li>
                 <li>Construção de dashboards</li>
                 <li>Exploração de dados e geração de insights</li>
                 <li>Machine Learning</li>
             </ul>
-            <p>Meu objetivo é atuar na interseção entre dados e negócio, utilizando dados como ferramenta para melhorar processos, apoiar decisões e gerar valor.</p>
-        </article>
-        <aside>
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Excel</li>
-                <li>Power BI</li>
-                <li>Python</li>
-            </ul>
-        </aside>
-
-
+            <p>Meu objetivo é atuar na interseção entre dados e negócio, utilizando dados como ferramenta para melhorar
+                processos, apoiar decisões e gerar valor.</p>
+    </article>
 
     </section>
     <section id="projetos">
@@ -75,50 +86,56 @@
     <section id="habilidades">
         <h2>Habilidades e tecnologias</h2>
 
-        <table><h3>
-            <thead>
-                <tr>
-                    <th>Tecnologia</th>
-                    <th>Nível</th>
-                    <th>Descrição</th>
-               </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Excel</th>
-                    <th>Avançado</th>
-                    <th>Análise temporal, cálculo de variação percentual, modelagem de dados (importar Power Query)</th>
-                </tr>
-                <tr>
-                    <th>Power BI</th>
-                    <th>Intermediário</th>
-                    <th>Relatórios interativos conectando diferentes fontes de dados, Power Query, medidas em DAX (faturamento, ticket médio e crescimento mensal) </th>
-                </tr>
-                <tr>
-                    <th>Pyton</th>
-                    <th>Iniciante</th>
-                    <th>Criar script para coletar, limpar e analisar dados através de bibliotecas (Pandas e Matplotlib)</th>
-                </tr>
-                <tr>
-                    <th>JavaScript</th>
-                    <th>Iniciante</th>
-                    <th>Criar script que consome uma API pública, organiza os dados em arrays e exibir os resultados em tabelas HTML</th>
-                </tr>
-                <tr>
-                    <th>HTML</th>
-                    <th>Iniciante</th>
-                    <th>Capaz de construir estruturas de páginas web semânticas e responsivas</th>
-                </tr>
-                <tr>
-                    <th>CSS</th>
-                    <th>Iniciante</th>
-                    <th>Criar arquivos para estilizar tabelas de dados responsivas e melhorar a vizualizaçaõ de informações em uma página HTML  </th>
-                </tr>
+        <table class="tabela">
+            
+                <thead>
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Nível</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Excel</td>
+                        <td>Avançado</td>
+                        <td>Análise temporal, cálculo de variação percentual, modelagem de dados (importar Power Query)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Power BI</td>
+                        <td>Intermediário</td>
+                        <td>Relatórios interativos conectando diferentes fontes de dados, Power Query, medidas em DAX
+                            (faturamento, ticket médio e crescimento mensal) </td>
+                    </tr>
+                    <tr>
+                        <td>Pyton</td>
+                        <td>Iniciante</td>
+                        <td>Criar script para coletar, limpar e analisar dados através de bibliotecas (Pandas e
+                            Matplotlib)</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Iniciante</td>
+                        <td>Criar script que consome uma API pública, organiza os dados em arrays e exibir os resultados
+                            em tabelas HTML</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Iniciante</td>
+                        <td>Capaz de construir estruturas de páginas web semânticas e responsivas</th>
+                    </td>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Iniciante</td>
+                        <td>Criar arquivos para estilizar tabelas de dados responsivas e melhorar a vizualizaçaõ de
+                            informações em uma página HTML </td>
+                    </tr>
 
-            </tbody>
+                </tbody>
 
 
-            </h3>
+            
         </table>
 
 

@@ -1,15 +1,181 @@
 body {
   margin: 0;
-  height: 100vh;
-  background: linear-gradient(to left, rgb(78, 61, 43) 10%, rgb(246, 247, 195) 50%);
+  padding-top: 100px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: white;
 }
+
+/* MENU */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0f0f0f;
+  padding: 15px 0px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30;
+  padding: 10;
+}
+
+.navbar li {
+  margin-left: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #d4af37;
+}
+
+/* ROLAGEM SUAVE */
+html {
+  scroll-behavior: smooth;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  height: 100vh;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-left h2 {
+  color: #d4af37;
+  margin: 10px 0;
+}
+
+.hero-left p {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+/* BOTÕES */
+.buttons button {
+  padding: 12px 24px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #d4af37;
+  color: black;
+}
+
+.buttons .outline {
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+}
+
+/* LADO DIREITO */
+.hero-right {
+  flex: 1;
+  background-color: #f5e6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #d4af37;
+}
+
+/* SEÇÕES */
+section {
+  padding: 30px;
+}
+
+.sobre p {
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* PROJETOS */
+.card {
+  background-color: #1c1c1c;
+  padding: 10px;
+  border-left: 3px solid #d4af37;
+  margin-top: 20px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* CABEÇALHO */
+.tabela thead {
+  background-color: #d4af37;
+  color: black;
+}
+
+.tabela th {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* CORPO */
+.tabela td {
+  padding: 15px;
+  border-bottom: 1px solid #333;
+}
+
+/* LINHAS ALTERNADAS */
+.tabela tbody tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+/* HOVER (efeito bonito 👀) */
+.tabela tbody tr:hover {
+  background-color: #3a3a3a;
+}
+
+/* COLUNA DESCRIÇÃO */
+.tabela td:nth-child(3) {
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .tabela {
+    font-size: 12px;
+  }
+}
+/*IMAGEM REDONDA*/
 img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
-}
-
-html {
-  scroll-behavior: smooth;
 }
