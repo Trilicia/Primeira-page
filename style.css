@@ -108,7 +108,7 @@ html {
 
 /* SEÇÕES */
 section {
-  padding: 150px 100px 0px 150px;
+  padding: 50px 100px 0px 50px;
 }
 
 .sobre p {
@@ -179,4 +179,27 @@ img {
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.container {
+  display: flex;
+  
+  }
+
+/* aside = 1/4 da tela */
+.aside {
+  width: 20%;
+  padding: 20px;
+  font-size: 30px;
+  font-style: italic;
+  background-color: #d4af37;
+  justify-content: center; 
+  align-items: center;
+    
+}
+
+/* conteúdo principal = 3/4 */
+article {
+  width: 75%;
+  padding: 20px;
 }
