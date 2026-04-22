@@ -32,6 +32,7 @@ body {
   text-decoration: none;
   color: white;
   transition: 0.3s;
+  padding: 10px;
 }
 
 .navbar a:hover {
@@ -64,7 +65,7 @@ html {
 
 .hero-left h2 {
   color: #d4af37;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .hero-left p {
@@ -107,7 +108,7 @@ html {
 
 /* SEÇÕES */
 section {
-  padding: 30px;
+  padding: 150px 100px 0px 150px;
 }
 
 .sobre p {
